@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,800&family=Yellowtail&display=swap');
+
+
+body{
+    background:teal;
+    font-size: 18px;
+    color:blanchedalmond;
+}
+#main{
+    padding: 4em;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 3.8em;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+
+
+
+}
+#image{
+    width: 70vw;
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#img-caption{
+    display: block;
+    font-family: 'Yellowtail', cursive;
+    width:60vw;
+    margin: 0 auto;
+    font-size:1.4em;
+    color:blanchedalmond;
+}
+#tribute-info{
+    width:90vw;
+    padding: 5px;
+}
+
+a{
+    position: relative;
+    top: 50px;
+    left: 500px;
+    color: azure;
+    font-family: 'Yellowtail', cursive;
+    font-size: 0.8em;
+    border: 2px solid burlywood;
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: teal;
+    padding: 0.2em;
+    border-radius: 10px;
+
+}
+a:hover{
+    color: white;
+    background-color:rgb(6, 120, 190);
+    border:2px solid white ;
+}
+
+li{
+    list-style:circle;
+    padding: 2px;
+    margin-bottom: 3px;
+
+}
+h2, h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+footer p{
+    text-align: center;
+}
